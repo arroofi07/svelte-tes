@@ -1,6 +1,6 @@
   <script lang="ts" > 
-  import '/svalte/svelte-project/src/app.css'
-  import todoStore from './todosStore';
+import '$src/app.css'
+import todoStore from './todosStore';
 
   let todos: any = [];
   todoStore.subscribe((value) => {
