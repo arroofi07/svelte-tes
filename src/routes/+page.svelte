@@ -20,7 +20,7 @@
   <Condition/> -->
 
   <script lang="ts" >
-    import '/svalte/svelte-project/src/app.css'
+    import '../app.css'
     
     type Person =  {
         name: string,
